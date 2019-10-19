@@ -1,3 +1,6 @@
 [submodule "ZEDBOARD/workspace"]
 	path = ZEDBOARD/workspace
 	url = https://github.com/zakinder/workspace.git
+[submodule "ZEDBOARD/ip_lib/VFP"]
+	path = ZEDBOARD/ip_lib/VFP
+	url = https://github.com/zakinder/VFP.git
