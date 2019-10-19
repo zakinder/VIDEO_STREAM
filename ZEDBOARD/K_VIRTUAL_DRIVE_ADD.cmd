@@ -6,5 +6,7 @@ setlocal
 @cd %batchfile_path%
 @echo -- Run : %batchfile_name%
 @echo -- Current Design Path: %batchfile_path%
-@set  driverletter= z
-@subst %driverletter%: /D
+@set  driverletter= k
+@subst %driverletter%: %batchfile_path%..
+@echo --Start scripts from virtual driver: %driverletter%
+@start %driverletter%:\
