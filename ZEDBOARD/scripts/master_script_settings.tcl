@@ -113,7 +113,7 @@ namespace eval ZQ {
   variable BD_MOD_PADD [list]
   variable BD_TCLNAME "NA"
   variable PR_TOPLEVELNAME "NA"
-  variable IS_zynq_soc false
+  variable IS_zynq_soc true
   variable IS_ZUSYS false
   variable IS_MSYS false
   variable IS_FSYS false
