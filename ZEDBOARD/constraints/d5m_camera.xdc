@@ -96,3 +96,5 @@ set_property IOSTANDARD LVCMOS33 [get_ports io_hdmio_de]
 set_property IOSTANDARD LVCMOS33 [get_ports io_hdmio_hsync]
 set_property IOSTANDARD LVCMOS33 [get_ports io_hdmio_spdif]
 set_property IOSTANDARD LVCMOS33 [get_ports io_hdmio_vsync]
+
+

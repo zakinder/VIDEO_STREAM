@@ -90,7 +90,7 @@ namespace eval ZQ {
   #for renaming use prefix sim*, syn*, imp* and con*!
   set_param general.maxThreads 4
   variable TIMEOUT 120
-  variable RUNNING_JOBS 8
+  variable RUNNING_JOBS 4
   #todo: multiple runs and strategies and modified strategies 
   variable SIM_NAME sim_1
   variable SYNTH_NAME synth_1
